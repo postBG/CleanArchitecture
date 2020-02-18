@@ -40,7 +40,7 @@ img[alt~="center"] {
 
 ---
 
-## 바르지 않은 예제 1
+## LSP 위반 예제 1
 <style>
 img[alt~="center"] {
   display: block;
@@ -51,7 +51,7 @@ img[alt~="center"] {
 
 ---
 
-## 바르지 않은 예제 1
+## LSP 위반 예제 1
 ```java
 Rectangle r = ...
 r.setW(10)
@@ -129,6 +129,48 @@ Compiler 관점: Square는 Rectangle을 상속받으니까 OK.
 
 ---
 
-## LSP는 구현보다 더 높은 추상화 레벨로 확장할 수 있다
+## LSP는 더 높은 추상화 차원으로 확장할 수 있다
+    
+* ex) 동일한 REST 인터페이스에 응답하는 서비스 집단  
+
+---
+
+## LSP 위반 예제 2: Taxi Dispatcher
+
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+![w:960 center](./resources/purple.png)
+
+---
+
+## LSP 위반 예제 2: Taxi Dispatcher
+
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+![w:920 center](./resources/acme.png)
+
+---
+
+## LSP 위반 예제 2: Taxi Dispatcher
+
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+![w:900 center](./resources/end.png)
+
+---
+
+# End!
 
 
