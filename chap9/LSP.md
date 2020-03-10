@@ -1,5 +1,5 @@
 ---
-marp: true
+marp: false
 ---
 
 # 리스코프 치환 원칙 (LSP)
@@ -167,7 +167,31 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 </style>
-![w:900 center](./resources/end.png)
+![w:900 center](./resources/end1.png)
+
+---
+
+## LSP 위반 예제 2: Taxi Dispatcher
+
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+![w:900 center](./resources/end2.png)
+
+---
+
+## LSP 위반 예제 2: Taxi Dispatcher
+
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+![w:900 center](./resources/end3.png)
 
 ---
 
